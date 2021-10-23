@@ -29,3 +29,8 @@ print rindex("あaいうえおあa","a"), "\n";
 my $str = "Programming Lesson is fun!Lesson";
 $str =~ s/Lesson/Perl/;
 print "\$str = $str\n";
+
+
+# 2-1
+# (1)
+print 3 + 4 / 2;
