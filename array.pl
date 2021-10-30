@@ -21,8 +21,8 @@ print '$sum=', $sum, "\n";
 #文字の配列
 my @word = ( "a", "b", "c", "d", "e" );
 $word[5] = "f";
-foreach my $item (@word) {
-    print $item;
+foreach  (@word) {
+    print " " . $_;
 }
 print "\n";
 
