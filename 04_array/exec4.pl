@@ -93,22 +93,22 @@ my @info = (
 
 print "<html><table border = \"1\">\n";
 foreach (@info) {
-    my ($mail, $name, $age) = split(/:/, $_);
+    my ( $mail, $name, $age ) = split( /:/, $_ );
     print "<tr><td>";
-    print join("</tr></td>" , $mail,$name,$age);
+    print join( "</tr></td>", $mail, $name, $age );
     print "</tr><td>\n";
 }
 print "</table></html>\n";
 
-# 4-9 
-my $myname ='kazuya';
-my $mymsg ='Hello';
-my $mytime ='14:25';
-my $data ="$myname,$mymsg,$mytime";
+# 4-9
+my $myname = 'kazuya';
+my $mymsg  = 'Hello';
+my $mytime = '14:25';
+my $data   = "$myname,$mymsg,$mytime";
 print $data . "\n";
 
-print join(',',$myname,$mymsg,$mytime) , "\n";
-my ($myname , $mymsg,$mytime) = split(/,/,$data) , "\n";
+print join( ',', $myname, $mymsg, $mytime ), "\n";
+my ( $myname, $mymsg, $mytime ) = split( /,/, $data ), "\n";
 print "\$myname=$myname\n";
 print "\$mymsg=$mymsg\n";
 print "\$mytime=$mytime\n";
