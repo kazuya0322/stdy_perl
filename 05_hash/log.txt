@@ -1,0 +1,14 @@
+2000-01-01
+red 10
+purple 35
+green 22
+2000-01-12
+red 35
+green 21
+2000-01-15
+purple 40
+white 5
+2000-01-31
+red 10
+purple 5
+white 5
