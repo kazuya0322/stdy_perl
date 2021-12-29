@@ -32,3 +32,23 @@ print(scalar(localtime()), "\n");
 print(my $x = localtime(), "\n");
 print("" . localtime(), "\n");
 
+# scalar context  numeric,string context
+my $num = 0 + 1;    #数値コンテキスト
+my $str = '' . 1;   #文字列コンテキスト
+my $var2;
+# my $var1 = $var2;   #不定コンテキスト
+# if (' ') {
+#     print("true\n");
+# }
+sub mycalc {
+    return 1;
+}
+
+print &mycalc() , "\n";
+
+
+my ($x,$y)=(123,456);
+
+print $x + $y , "\n";
+print $x . $y . "\n";
+
