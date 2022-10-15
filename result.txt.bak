@@ -1,0 +1,13 @@
+C:\Users\takay\study\stdy_perl\etc\COBOL/ABC1_1.cbl,0
+C:\Users\takay\study\stdy_perl\etc\COBOL/ABC_1_2.cbl,2
+000130     PERFORM  UNTIL  WRK-COUNTER  >  10,1
+000170     PERFORM  UNTIL  WRK-COUNTER  >  10,1
+C:\Users\takay\study\stdy_perl\etc\COBOL/ABC_2_2.cbl,4
+000130     PERFORM  UNTIL  WRK-COUNTER  >  10,1
+000141         PERFORM PERFORM  100 TIMES,2
+000170     PERFORM  UNTIL  WRK-COUNTER  >  10,1
+000190         PERFORM PERFORM  100 TIMES,2
+C:\Users\takay\study\stdy_perl\etc\COBOL/DEF1_1.cbl,1
+000130     PERFORM  100 TIMES,1
+C:\Users\takay\study\stdy_perl\etc\COBOL/GHIJ1_1.cbl,1
+000130     PERFORM VARYING X FROM 1 BY 1,1
